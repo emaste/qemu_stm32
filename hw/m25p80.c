@@ -112,6 +112,9 @@ static const FlashPartInfo known_devices[] = {
     { INFO("mx25l25635e", 0xc22019,      0,  64 << 10, 512, 0) },
     { INFO("mx25l25655e", 0xc22619,      0,  64 << 10, 512, 0) },
 
+    /* Micron */
+    { INFO("n25q032a",    0x20bb16,      0,  64 << 10, 256, ER_4K) },
+
     /* Spansion -- single (large) sector size only, at least
      * for the chips listed here (without boot sectors).
      */
